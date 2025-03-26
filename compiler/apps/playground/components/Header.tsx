@@ -1,3 +1,5 @@
+
+
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.
  *
@@ -56,8 +58,8 @@ export default function Header(): JSX.Element {
         <p className="hidden select-none sm:block">React Compiler Playground</p>
       </div>
       <div className="flex items-center text-[15px] gap-4">
-        <button
-          title="Reset Playground"
+        <button 
+          title="Reset Playground play-g"
           aria-label="Reset Playground"
           className="flex items-center gap-1 transition-colors duration-150 ease-in text-secondary hover:text-link"
           onClick={handleReset}>
